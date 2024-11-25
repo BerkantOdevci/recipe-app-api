@@ -22,4 +22,4 @@ class CommandTests(SimpleTestCase):
         call_command('wait_for_db')
 
         self.assertEqual(patched_check.call_count, 6) # Check if the check method was called 6 times
-        patched_check.assert_called_with(database=['default']) # Check if the check method was called with the database argument
+        patched_check.assert_called_with(databases=['default']) # Check if the check method was called with the database argument
