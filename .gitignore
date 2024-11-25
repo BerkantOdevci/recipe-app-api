@@ -49,8 +49,8 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-cover/
-
+# cover/
+pip-wheel-metadata/
 # Translations
 *.mo
 *.pot
@@ -72,7 +72,7 @@ instance/
 docs/_build/
 
 # PyBuilder
-.pybuilder/
+# .pybuilder/
 target/
 
 # Jupyter Notebook
@@ -107,9 +107,9 @@ ipython_config.py
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
 #   in version control.
 #   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
-.pdm.toml
-.pdm-python
-.pdm-build/
+# .pdm.toml
+# .pdm-python
+# .pdm-build/
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -149,10 +149,10 @@ dmypy.json
 .pyre/
 
 # pytype static type analyzer
-.pytype/
+# .pytype/
 
 # Cython debug symbols
-cython_debug/
+# cython_debug/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
